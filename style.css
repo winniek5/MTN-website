@@ -1,0 +1,103 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    background-color: #FFCC00;
+    display: flex;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* NAVIGATION LINKS */
+nav a {
+    color: #222222;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* HOVER EFFECT */
+nav a:hover {
+    color: #333333;
+}
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+/* HERO TEXT OVERLAY */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* SERVICE CARDS */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f2f2f2;
+    padding: 25px;
+    text-align: center;
+    flex: 1;
+    border-radius: 8px;
+}
+
+/* CARD HEADINGS */
+.card h2 {
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+/* CARD PARAGRAPHS */
+.card p {
+    margin-bottom: 20px;
+}
+
+/* LEARN MORE BUTTONS */
+.card a {
+    display: inline-block;
+    background-color: #FFCC00;
+    color: #333333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* BUTTON HOVER */
+.card a:hover {
+    background-color: #333333;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
